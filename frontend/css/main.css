@@ -1,0 +1,139 @@
+html{
+	background: #FFE000;
+}
+
+body{
+	font-family: 'OpenSans',sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+	color: #6b6b6b;
+	height:100%;
+	width:100%;
+}
+
+h1{
+	color: #2b2b2b;
+	font-family: 'OpenSansBold',sans-serif;
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 120px;
+}
+
+h2{
+	font-size: 30px;
+	padding: 10px;
+}
+
+h3{
+	font-size: 16px;
+	margin: -26px 0px 0px 100px;
+}
+
+header{
+	padding:10px;
+	background: #FFF;
+	box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+}
+
+main{
+	min-height: 100px;
+}
+
+.content{
+	padding: 50px;
+	text-align: center;
+}
+.content > ul > li{
+	padding: 10px;
+}
+footer{
+	text-align: center;
+	padding: 30px;
+}
+
+.wrapper{
+	display: block;
+}
+
+.main-container{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.header-wrapper{
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.logo{
+	display: inline-block;
+	vertical-align: bottom;
+	padding-bottom: 30px;
+}
+
+menu{
+	padding:10px;
+	display: inline-block;
+	vertical-align: bottom;
+	text-align: right;
+	float: right;
+	margin-top: 60px;
+}
+
+ul.main-menu{
+}
+
+ul.main-menu > li{
+	display: inline-block;
+	padding: 10px;
+	min-width: 70px;
+	text-align: center;
+}
+
+ul.main-menu > li.active{
+	font-weight: bold;
+	border-bottom: 3px solid #FFE000;
+}
+
+ul.main-menu > li:hover{
+	cursor: pointer;
+	font-weight: bold;
+	border-bottom: 3px solid #FFE000;
+}
+
+.node{
+	padding: 10px;
+	cursor: pointer;
+}
+
+.video-js {
+	position: relative !important;
+	width: 100% !important;
+	height: auto !important;
+}
+
+.video-player--title{
+	padding: 30px;
+	font-size: 30px;
+}
+
+.video-container 
+{
+	position:absolute;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+	z-index: 999;
+	left:0;
+	top:0;
+}
+
+.video-container video 
+{
+	min-width: 100%;
+	min-height: 100%;
+}
+.slick-active{
+	border: 2px solid #AAA;
+	background: #FFF;
+}

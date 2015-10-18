@@ -1,0 +1,11 @@
+{
+    "name": "daeus/vod",
+    "description": "Simple demo for html5 video on demand player",
+    "authors": [
+        {
+            "name": "Daeus Tang",
+            "email": "daeustang@gmail.com"
+        }
+    ],
+    "require": {}
+}
